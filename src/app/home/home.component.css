@@ -16,9 +16,17 @@
     border-top-right-radius: 10px;
     box-shadow: 5px 5px 10px 10px rgba(0,0,0,0.5);
     margin-top: 10px;
+    background-color: aliceblue;
+    
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    bottom: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    text-align: center;
+    
 }
 
 .nav-bar button {
-    left: 35%;
+    display: inline-block;
     margin: 10px;
 }
